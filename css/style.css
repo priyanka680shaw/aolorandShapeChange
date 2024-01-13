@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-conter{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    border: 2px solid black;
+    height: 100vh;
+    background-image: linear-gradient(rgb(105, 101, 101), yellow);
+}
+
+#container{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+button{
+    margin: 10px 0px;
+    height: 5s0px;
+}
+
+#circle{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#square{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 151, 151);
+}
+
+#triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(34, 16, 232);
+    border-right: 100px solid transparent;
+}
+
+#tri{
+    width: 0px;
+    height: 0px;
+    margin: 30px;
+    border-top: 50px solid transparent;
+    border-right:100px solid rgb(4, 4, 4) ;
+    border-bottom: 50px solid transparent;
+}
+
+#tri-down{
+    width: 0px;
+    height: 0px;
+    /* background-color: aqua; */
+    border-top:100px solid rgb(4, 4, 4);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+#diamond{
+    width: 0px;
+    height: 0px;
+}
+ 
+#square {
+    width: 100px;
+    height: 100px;
+    background: rgb(250, 247, 247);
+}
+
+
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(4, 4, 4);
+    position: relative;
+  }
+#star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid  rgb(4, 4, 4);
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+  }
+
+.small-circle{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(4, 4, 4);
+    border-radius: 50%;
+}
+/* addding by js */
+/* @keyframes
+.circleExtra{
+
+} */
